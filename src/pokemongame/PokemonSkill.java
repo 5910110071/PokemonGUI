@@ -32,11 +32,11 @@ public class PokemonSkill{
 			case "Water Pulse":
 				skill = new PokemonSkill("Water Pulse", 100);
 				break;
-                        case "Kick":
-				skill = new PokemonSkill("Tail Whip", 10);
+                        case "tail1":
+				skill = new PokemonSkill("Tail1", 10);
 				break;
-			case "Punch":
-				skill = new PokemonSkill("Water Pulse", 100);
+			case "Water1":
+				skill = new PokemonSkill("Water1", 100);
 				break;
                                 
 		}

@@ -1,6 +1,6 @@
 package pokemongame;
 
-public class Pikachu extends Pokemon implements Runnable{
+public class Pikachu extends Pokemon implements Run{
 	private static final int maxGroupHealth = 200;
 	public Pikachu(){
 		super("Picachu",
@@ -15,10 +15,10 @@ public class Pikachu extends Pokemon implements Runnable{
 	}
 
 	public void run(){
-		this.reducedHealth(10);
+		this.reducedWeight(10);
 	}
 
 	public void walk(){
-		this.reducedHealth(1);
+		this.reducedWeight(1);
 	}
 }

@@ -22,18 +22,18 @@ public class Koduck extends Pokemon implements Swimmable,Run {
 	
 
 	public void swim(){
-		this.reducedHealth(10);
+		this.reducedWeight(10);
 	}
         
         public void move(){
 		this.swim();
 	}
         public void run(){
-		this.reducedHealth(10);
+		this.reducedWeight(10);
 	}
 
 	public void walk(){
-		this.reducedHealth(1);
+		this.reducedWeight(1);
 	}
 
 }
