@@ -93,18 +93,12 @@ public class PokemonGameII extends javax.swing.JFrame {
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
 
-        jLabel2.setText("jLabel2");
-
         jButton3.setText("Exercise");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
-
-        jLabel3.setText("jLabel3");
-
-        jLabel4.setText("jLabel4");
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pikaju", "Koduck", "Sonas" }));
 

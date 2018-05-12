@@ -15,8 +15,8 @@ public class Sonas extends Pokemon implements Run {
 		super("Sonas",
 		      (Math.random()*1000) % (maxGroupHealth+1),(Math.random()*1000)%100+50);
 
-		this.attackSkill = PokemonSkill.getPokemonSkill("Tail1");
-		this.untimatedSkill = PokemonSkill.getPokemonSkill("Water1");
+		this.attackSkill = PokemonSkill.getPokemonSkill("tail whip");
+		this.untimatedSkill = PokemonSkill.getPokemonSkill("Water Pulse");
 	}
 
 	
